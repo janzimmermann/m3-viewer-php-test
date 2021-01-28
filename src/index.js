@@ -45,27 +45,27 @@ const config = {
         light: {
             palette: {
                 primary: {
-                    main: '#5574bb', // ZB-blau
-                    // main: '#846963',  //ZB-braun
+                    
+                    main: '#846963',  //ZB-braun
                 },
                 secondary: {
-                    main: '#846963',  //ZB-braun
+                    main: '#5574bb', // ZB-blau
                 }
             }
         }
     },
-    theme: {
-        overrides: {
-            MuiFab: {
-                primary: {
-                    backgroundColor: '#846963',
-                    '&:hover': {
-                        backgroundColor: '#745d58',  
-                    },
-                }
-            }
-        }
-    }
+    // theme: {
+    //     overrides: {
+    //         MuiFab: {
+    //             primary: {
+    //                 backgroundColor: '#846963',
+    //                 '&:hover': {
+    //                     backgroundColor: '#745d58',  
+    //                 },
+    //             }
+    //         }
+    //     }
+    // }
 };
 
 const plugins = [];
