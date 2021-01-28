@@ -41,6 +41,31 @@ const config = {
         // Modify views so that it can be viewed in book view as well. 
         // (Hint: take a look at key: 'gallery'. 
     ],
+    themes:  {
+        light: {
+            palette: {
+                primary: {
+                    main: '#5574bb', // ZB-blau
+                    // main: '#846963',  //ZB-braun
+                },
+                secondary: {
+                    main: '#846963',  //ZB-braun
+                }
+            }
+        }
+    },
+    theme: {
+        overrides: {
+            MuiFab: {
+                primary: {
+                    backgroundColor: '#846963',
+                    '&:hover': {
+                        backgroundColor: '#745d58',  
+                    },
+                }
+            }
+        }
+    }
 };
 
 const plugins = [];
