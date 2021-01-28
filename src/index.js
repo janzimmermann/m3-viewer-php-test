@@ -8,7 +8,7 @@ const config = {
       manifestId: 'https://purl.stanford.edu/fr426cg9537/iiif/manifest',
     }
   ],
-  selectedTheme: 'cursed',
+  selectedTheme: 'light',
   themes: {
     cursed:{
       palette: {
@@ -32,6 +32,28 @@ const config = {
                      ],
       },
     },
+    light:{
+        palette: {
+          type: 'light',
+          primary: {
+            main: '#00b3b3',
+            dark: '#00cccc',
+          },
+          secondary: {
+            main: '#d580ff',
+          },
+          shades: {
+            dark: '#99ffcc',
+            main: '#66b3ff',
+            light: '#bb99ff',
+          },
+        },
+        typography:{
+          fontFamily: ['Monospace',
+                       'Papyrus'
+                       ],
+        },
+      },
     
     // TASK: Set the cursed theme as the selected theme
     // TASK: Override the colors in the dark and light themes
