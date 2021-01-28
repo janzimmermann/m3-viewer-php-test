@@ -42,7 +42,7 @@ const config = {
         // (Hint: take a look at key: 'gallery'. 
     ],
     themes:  {
-        light: {
+        ZBTheme: {
             palette: {
                 primary: {
                     
