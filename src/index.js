@@ -29,6 +29,10 @@ const config = {
         { // Secret cat on the 76th page
             manifestId: 'https://iiif.bodleian.ox.ac.uk/iiif/manifest/faeff7fb-f8a7-44b5-95ed-cff9a9ffd198.json',
             provider: 'Bodleian Libraries, University of Oxford',
+        },
+        {
+            manifestId: 'https://www.e-codices.unifr.ch/metadata/iiif/collection.json',
+            provider: 'e-codices',
         }
     ]
 };
