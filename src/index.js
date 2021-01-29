@@ -68,7 +68,8 @@ const plugins = [
     mode: 'wrap',
     component: CustomBrand,
     target: 'Branding',
-  }
+  },
+  ...miradorImageToolsPlugin
 ];
 
 Mirador.viewer(config, plugins);
