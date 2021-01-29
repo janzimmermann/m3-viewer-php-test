@@ -1,4 +1,5 @@
 import Mirador from 'mirador/dist/es/src/index';
+import miradorImageToolsPlugin from 'mirador-image-tools/es/plugins/miradorImageToolsPlugin.js';
 import examplePlugin from './plugins/example_plugin';
 import CustomBrand from './components/custom_brand';
 
@@ -16,12 +17,16 @@ const config = {
     },
     windows: [{
             // viewingHint: paged --> automatically selects Book view
+            imageToolsEnabled: true,
+            imageToolsOpen: true,
             manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
             sideBarOpen: true,
             canvasIndex: 7
         },
         {
             // single view
+            imageToolsEnabled: true,
+            imageToolsOpen: true,
             manifestId: 'https://www.e-rara.ch/i3f/v20/21681782/manifest',
             sideBarOpen: true,
         },
