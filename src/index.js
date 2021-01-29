@@ -32,6 +32,26 @@ const config = {
             view: 'gallery',
         }
     ],
+    catalog: [{ // These manifests are available in the catalog. 
+            manifestId: 'https://damsssl.llgc.org.uk/iiif/2.0/1556378/manifest.json',
+            provider: 'The National Library of Wales',
+        },
+        {
+            manifestId: 'https://damsssl.llgc.org.uk/iiif/2.0/1487439/manifest.json',
+        },
+        {
+            manifestId: 'https://cdm16866.contentdm.oclc.org/iiif/info/cchm_photo/5342/manifest.json',
+            provider: 'Washington State University',
+        },
+        { // Secret cat on the 76th page
+            manifestId: 'https://iiif.bodleian.ox.ac.uk/iiif/manifest/faeff7fb-f8a7-44b5-95ed-cff9a9ffd198.json',
+            provider: 'Bodleian Libraries, University of Oxford',
+        },
+        {
+            manifestId: 'https://www.e-codices.unifr.ch/metadata/iiif/collection.json',
+            provider: 'e-codices',
+        }
+    ],  
     themes:  {
         ZBTheme: {
             palette: {
