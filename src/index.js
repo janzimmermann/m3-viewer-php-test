@@ -31,22 +31,11 @@ const config = {
             manifestId: 'https://iiif.bodleian.ox.ac.uk/iiif/manifest/e32a277e-91e2-4a6d-8ba6-cc4bad230410.json',
             view: 'gallery',
         }
-        // TASK 1: remove the view: 'gallery' setting from the example above 
-        // What view type will the window use after reloading? 
-        // Does its manifest provide a viewingHint or behavior?
-
-        // TASK 2: Delete { key: 'scroll', behaviors: ['continuous'] }. 
-        // How does this change the view types for Ms. 46 Ṣālot bā᾽eneta bāreyā; Ṣalota Mastem? 
-
-        // CHALLENGE: Change settings so that Ms. 46 Ṣālot bā᾽eneta bāreyā; Ṣalota Mastem is shown in Gallery view by default. 
-        // Modify views so that it can be viewed in book view as well. 
-        // (Hint: take a look at key: 'gallery'. 
     ],
     themes:  {
         ZBTheme: {
             palette: {
-                primary: {
-                    
+                primary: {                    
                     main: '#846963',  //ZB-braun
                 },
                 secondary: {
@@ -55,18 +44,6 @@ const config = {
             }
         }
     },
-    // theme: {
-    //     overrides: {
-    //         MuiFab: {
-    //             primary: {
-    //                 backgroundColor: '#846963',
-    //                 '&:hover': {
-    //                     backgroundColor: '#745d58',  
-    //                 },
-    //             }
-    //         }
-    //     }
-    // }
 };
 
 const plugins = [
