@@ -1,0 +1,966 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.org/iiif/collection/top",
+    "type": "Collection",
+    "label": {
+        "en": [
+            "Collection for Zentralbibliothek Zürich"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Resources from Zentralbibliothek Zürich from e-manuscripta"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "Provided by Zentralbibliothek Zürich"
+            ]
+        }
+    },
+    "logo": [
+        {
+          "id": "https://www.zb.uzh.ch/themes/zb/assets/images/zb-logo.svg",
+          "type": "Image",
+          "format": "text/html",
+          "height": 100,
+          "width": 120
+        }
+      ],
+    "items": [
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/1446250/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "Ruine Kienburg bei Olten"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/1531865/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853741/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / F.H.L. von DÃ¶ring an J.G. Zimmermann, 7. Januar 1776 (FA Lav Ms 534.34b)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2978556/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 6. bis 11. Dezember [1774] (FA Lav Ms 534.39a)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853903/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 20. bis 21. November 1777 (FA Lav Ms 534.46)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853917/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 17. Januar 1777 (FA Lav Ms 534.48)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853921/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 10. Februar bis 31. MÃ¤rz 1777 (FA Lav Ms 534.49)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853931/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 12. Mai 1777 (FA Lav Ms 534.51)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853191/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 14. Dezember 1774 bis 17. Februar 1775 (FA Lav Ms 534.1)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853206/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 10. Februar 1775 (FA Lav Ms 534.3)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853209/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 25. bis 27. Februar 1775 (FA Lav Ms 534.4-6)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2978560/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, [September 1775] (FA Lav Ms 534.32a)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853234/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 3. April 1775 (FA Lav Ms 534.7)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853240/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 10. April 1775 (FA Lav Ms 534.8)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853245/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 14. April 1775 (FA Lav Ms 534.9)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853249/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / F.H.L. von DÃ¶ring an J.G. Zimmermann, 15. April 1775 (FA Lav Ms 534.10)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853263/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 16. bis 17. April 1775 (FA Lav Ms 534.11)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853270/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 21. April 1775 (FA Lav Ms 534.12)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853275/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 24. April 1775 (FA Lav Ms 534.13)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853280/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 5. Mai 1775 (FA Lav Ms 534.14)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853284/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 13. bis 14. Mai 1775 (FA Lav Ms 534.15)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853288/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an P.E. Reich, 6. April 1775 (FA Lav Ms 534.16)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853292/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 15. Mai 1775 (FA Lav Ms 534.18)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853297/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 22. Mai 1775 (FA Lav Ms 534.19)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853301/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 5. Juni 1775 (FA Lav Ms 534.20)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2455930/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "7 Briefe, 2 Postkarten an Elisabeth Goetz-von Ruckteschell"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2455966/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "4 Briefe mit Umschlag an L.L. Maass"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2456000/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "3 Briefe, 2 Postkarten, 2 UmschlÃ¤ge an Eugen Schlegel"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2456021/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "13 Briefe, 6 Postkarten, 1 Umschlag an Regula [Specht-]Schlegel"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2456075/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "1 Postkarte an Felix Schlegel, Werner Schlegel"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2456080/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "1 Brief an [Hermann KrÃ¼si]"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2456088/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "1 Postkarte an S[ophie] Taeuber-Arp"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2456100/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "1 Brief an Hans [Arp]"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853843/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 19. Februar 1776 (FA Lav Ms 534.36)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853855/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an E.F.H. Falcke, 1. MÃ¤rz 1776 (FA Lav Ms 534.37)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853861/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 15. MÃ¤rz 1776 (FA Lav Ms 534.38)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853867/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 5. bis 7. April 1776 (FA Lav Ms 534.39)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853873/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 26. April bis Juni 1776 (FA Lav Ms 534.40)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853883/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 27. Juni 1776 (FA Lav Ms 534.41)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853887/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 5. August 1776 (FA Lav Ms 534.42)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853891/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 9. September 1776 (FA Lav Ms 534.43)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853895/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 4. Oktober 1776 (FA Lav Ms 534.44)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853899/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 27. bis 30. Dezember 1776 (FA Lav Ms 534.45)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853908/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / M. Mendelssohn an J.G. Zimmermann, 17. November 1777 (FA Lav Ms 534.46a)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853912/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 13. Januar 1777 (FA Lav Ms 534.47)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853927/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 5. Mai 1777 (FA Lav Ms 534.50)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853681/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 26. Juni 1775 (FA Lav Ms 534.21)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853685/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, s.d. (FA Lav Ms 534.22)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853690/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 12. Juli 1775 (FA Lav Ms 534.24)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853695/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 10. bis 12. August 1775 (FA Lav Ms 534.25)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853700/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 15. bis 16. August 1775 (FA Lav Ms 534.26-27)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853711/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 18. August 1775 (FA Lav Ms 534.28)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853716/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 26. August 1775 (FA Lav Ms 534.29)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853720/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 11. September 1775 (FA Lav Ms 534.30)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853724/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 13. September 1775 (FA Lav Ms 534.31)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853729/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 11. Dezember 1775 (FA Lav Ms 534.32)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853733/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 28. bis 29. Dezember 1775 (FA Lav Ms 534.33)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        },
+        {
+            "id": "https://www.e-manuscripta.ch/i3f/v20/2853737/manifest",
+            "type": "Manifest",
+            "label": {
+                "de": [
+                    "43 Briefe an [Johann Caspar] Lavater / J.G. Zimmermann an J.C. Lavater, 26. bis 29. Januar 1776 (FA Lav Ms 534.34)"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.e-manuscripta.ch/zuz/i3f/v21/2372147/full/304/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ]
+        }
+    ]
+}
