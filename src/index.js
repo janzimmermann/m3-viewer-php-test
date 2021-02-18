@@ -1,35 +1,50 @@
 import Mirador from 'mirador/dist/es/src/index';
+import React, { Component } from 'react';
+import Typography from '@material-ui/core/Typography';
 import miradorImageToolsPlugin from 'mirador-image-tools/es/plugins/miradorImageToolsPlugin.js';
-import examplePlugin from './plugins/example_plugin';
-import CustomBrand from './components/custom_brand';
+import miradorAnnotationPlugins from 'mirador-annotations/es/index';
+import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
+// import AnnototAdapter from 'mirador-annotations/es/AnnototAdapter';
+// import examplePlugin from './plugins/example_plugin';
+// import CustomBrand from './components/custom_brand';
+
+const endpointUrl = 'http://127.0.0.1:3000/annotations';
 
 // Example of different window view types
 const config = {
+    
+    annotation: {
+        adapter: (canvasId) => new LocalStorageAdapter(`localStorage://?canvasId=${canvasId}`),
+        // adapter: (canvasId) => new AnnototAdapter(canvasId, endpointUrl),
+    },
     id: 'mirador-viewer',
     window: {
         // Set the default view type for all manifests without a viewingHint
         defaultView: 'single', // options: single, book, gallery, scroll
+        sideBarPanel: 'annotations',
         views: [ // This is a copy of ProjectMirador/mirador's src/config/settings.js
             { key: 'single', behaviors: ['individuals'] },
             { key: 'book', behaviors: ['paged'] },
             { key: 'gallery' },
         ],
     },
-    windows: [{
-            // viewingHint: paged --> automatically selects Book view
-            imageToolsEnabled: true,
-            imageToolsOpen: true,
-            manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
-            sideBarOpen: true,
-            canvasIndex: 7
-        },
+    windows: [
         {
-            // single view
-            imageToolsEnabled: true,
-            imageToolsOpen: true,
-            manifestId: 'https://www.e-rara.ch/i3f/v20/21681782/manifest',
+            // viewingHint: paged --> automatically selects Book view
+            // imageToolsEnabled: true,
+            // imageToolsOpen: true,
+            manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
+            // canvasIndex: 7, // not working
+            canvasId: 'https://www.e-manuscripta.ch/zuzcmi/i3f/v20/2886898/canvas/2886949',
             sideBarOpen: true,
         },
+        // {
+        //     // single view
+        //     imageToolsEnabled: true,
+        //     // imageToolsOpen: true,
+        //     manifestId: 'https://www.e-rara.ch/i3f/v20/21681782/manifest',
+        //     // sideBarOpen: true,
+        // },
     ],
     catalog: [// These manifests are available in the catalog. 
         {
@@ -43,6 +58,10 @@ const config = {
         {
             manifestId: 'https://www.e-codices.unifr.ch/metadata/iiif/collection.json',
             provider: 'e-codices',
+        },
+        {
+            manifestId: 'zb_collection.json',
+            provider: 'Zentralbibliothek Zürich',
         }
     
     ],  
@@ -64,12 +83,13 @@ const config = {
 };
 
 const plugins = [
-  {
-    mode: 'wrap',
-    component: CustomBrand,
-    target: 'Branding',
-  },
-  ...miradorImageToolsPlugin
+//   {
+//     mode: 'wrap',
+//     component: CustomBrand,
+//     target: 'Branding',
+//   },
+  ...miradorImageToolsPlugin,
+  ...miradorAnnotationPlugins,
 ];
 
 Mirador.viewer(config, plugins);
