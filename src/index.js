@@ -23,8 +23,9 @@ const config = {
         defaultView: 'single', // options: single, book, gallery, scroll
         sideBarPanel: 'annotations',
         views: [ // This is a copy of ProjectMirador/mirador's src/config/settings.js
-            { key: 'single', behaviors: ['individuals'] },
-            { key: 'book', behaviors: ['paged'] },
+            { key: 'single' },
+            // { key: 'single', behaviors: ['individuals'] },
+            // { key: 'book', behaviors: ['paged'] },
             { key: 'gallery' },
         ],
     },
