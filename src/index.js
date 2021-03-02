@@ -4,9 +4,9 @@ import Typography from '@material-ui/core/Typography';
 import miradorImageToolsPlugin from 'mirador-image-tools/es/plugins/miradorImageToolsPlugin.js';
 import miradorAnnotationPlugins from 'mirador-annotations/es/index';
 import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
+import CustomBrand from './components/custom_brand';
 // import AnnototAdapter from 'mirador-annotations/es/AnnototAdapter';
 // import examplePlugin from './plugins/example_plugin';
-// import CustomBrand from './components/custom_brand';
 
 const endpointUrl = 'http://127.0.0.1:3000/annotations';
 
@@ -84,11 +84,11 @@ const config = {
 };
 
 const plugins = [
-//   {
-//     mode: 'wrap',
-//     component: CustomBrand,
-//     target: 'Branding',
-//   },
+  {
+    mode: 'wrap',
+    component: CustomBrand,
+    target: 'Branding',
+  },
   ...miradorImageToolsPlugin,
   ...miradorAnnotationPlugins,
 ];
