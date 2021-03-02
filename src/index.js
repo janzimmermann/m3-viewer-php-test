@@ -5,8 +5,8 @@ import miradorImageToolsPlugin from 'mirador-image-tools/es/plugins/miradorImage
 import miradorAnnotationPlugins from 'mirador-annotations/es/index';
 import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
 // import AnnototAdapter from 'mirador-annotations/es/AnnototAdapter';
+import CustomBrand from './components/custom_brand';
 // import examplePlugin from './plugins/example_plugin';
-// import CustomBrand from './components/custom_brand';
 
 const endpointUrl = 'http://127.0.0.1:3000/annotations';
 
@@ -32,7 +32,7 @@ const config = {
     windows: [
         {
             // viewingHint: paged --> automatically selects Book view
-            // imageToolsEnabled: true,
+            imageToolsEnabled: true,
             // imageToolsOpen: true,
             manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
             // canvasIndex: 7, // not working
@@ -47,6 +47,14 @@ const config = {
         //     // sideBarOpen: true,
         // },
     ],
+    panels: { // Configure which panels are visible in WindowSideBarButtons
+        info: true,
+        // attribution: true,
+        // canvas: true,
+        annotations: true, // still getting an error on the annotations button
+        // search: true,
+        // layers: false,
+      },
     catalog: [// These manifests are available in the catalog. 
         {
             manifestId: 'https://cdm16866.contentdm.oclc.org/iiif/info/cchm_photo/5342/manifest.json',
@@ -84,11 +92,11 @@ const config = {
 };
 
 const plugins = [
-//   {
-//     mode: 'wrap',
-//     component: CustomBrand,
-//     target: 'Branding',
-//   },
+  {
+    mode: 'wrap',
+    component: CustomBrand,
+    target: 'Branding',
+  },
   ...miradorImageToolsPlugin,
   ...miradorAnnotationPlugins,
 ];
