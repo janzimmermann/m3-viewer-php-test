@@ -34,9 +34,10 @@ const config = {
             // viewingHint: paged --> automatically selects Book view
             // imageToolsEnabled: true,
             // imageToolsOpen: true,
-            manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
-            // canvasIndex: 7, // not working
-            canvasId: 'https://www.e-manuscripta.ch/zuzcmi/i3f/v20/2886898/canvas/2886949',
+            // manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
+            manifestId: 'https://www.ecodices.ch/metadata/iiif/zbz-C0054/manifest.json',
+            canvasIndex: 7, // not working
+            // canvasId: 'https://www.e-manuscripta.ch/zuzcmi/i3f/v20/2886898/canvas/2886949',
             sideBarOpen: true,
         },
         // {
