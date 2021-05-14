@@ -35,9 +35,9 @@ const config = {
             // imageToolsEnabled: true,
             // imageToolsOpen: true,
             // manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
-            manifestId: 'https://www.ecodices.ch/metadata/iiif/zbz-C0054/manifest.json',
-            canvasIndex: 7, // not working
-            // canvasId: 'https://www.e-manuscripta.ch/zuzcmi/i3f/v20/2886898/canvas/2886949',
+            manifestId: 'https://www.e-manuscripta.ch/i3f/v20/664401/manifest',
+            // canvasIndex: 493, // not working
+            canvasId: 'https://www.e-manuscripta.ch/zuz/i3f/v20/664401/canvas/664896',
             sideBarOpen: true,
         },
         // {
