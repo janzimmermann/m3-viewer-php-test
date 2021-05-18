@@ -6,7 +6,6 @@ import miradorAnnotationPlugins from 'mirador-annotations/es/index';
 import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
 import CustomBrand from './components/custom_brand';
 // import AnnototAdapter from 'mirador-annotations/es/AnnototAdapter';
-import CustomBrand from './components/custom_brand';
 // import examplePlugin from './plugins/example_plugin';
 
 const endpointUrl = 'http://127.0.0.1:3000/annotations';
@@ -32,9 +31,7 @@ const config = {
     },
     windows: [
         {
-<<<<<<< HEAD
     
-=======
             // viewingHint: 'single', 
             manifestId: 'https://www.e-manuscripta.ch/i3f/v20/664401/manifest',
             // canvasIndex: 493, // not working
@@ -43,7 +40,6 @@ const config = {
             // sideBarOpen: true,
         },
         {
->>>>>>> d5fb9fcbca6c11b8da79f769327a5f1123be159b
             manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
             // canvasIndex: 7, // not working
             canvasId: 'https://www.e-manuscripta.ch/zuzcmi/i3f/v20/2886898/canvas/2886949',
