@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import miradorImageToolsPlugin from 'mirador-image-tools/es/plugins/miradorImageToolsPlugin.js';
 import miradorAnnotationPlugins from 'mirador-annotations/es/index';
 import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
+import CustomBrand from './components/custom_brand';
 // import AnnototAdapter from 'mirador-annotations/es/AnnototAdapter';
 import CustomBrand from './components/custom_brand';
 // import examplePlugin from './plugins/example_plugin';
@@ -31,39 +32,35 @@ const config = {
     },
     windows: [
         {
-            // viewingHint: paged --> automatically selects Book view
-            imageToolsEnabled: true,
-            // imageToolsOpen: true,
+<<<<<<< HEAD
+    
+=======
+            // viewingHint: 'single', 
+            manifestId: 'https://www.e-manuscripta.ch/i3f/v20/664401/manifest',
+            // canvasIndex: 493, // not working
+            canvasId: 'https://www.e-manuscripta.ch/zuz/i3f/v20/664401/canvas/664896',
+            thumbnailNavigationPosition: 'far-right', // 'bottom' currently not working: thumbnails are stacked on top of each other
+            // sideBarOpen: true,
+        },
+        {
+>>>>>>> d5fb9fcbca6c11b8da79f769327a5f1123be159b
             manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
             // canvasIndex: 7, // not working
             canvasId: 'https://www.e-manuscripta.ch/zuzcmi/i3f/v20/2886898/canvas/2886949',
-            sideBarOpen: true,
+            thumbnailNavigationPosition: 'far-right',
+            // sideBarOpen: true,
+            // imageToolsEnabled: true,
+            // imageToolsOpen: true,
         },
-        // {
-        //     // single view
-        //     imageToolsEnabled: true,
-        //     // imageToolsOpen: true,
-        //     manifestId: 'https://www.e-rara.ch/i3f/v20/21681782/manifest',
-        //     // sideBarOpen: true,
-        // },
     ],
     panels: { // Configure which panels are visible in WindowSideBarButtons
         info: true,
-        // attribution: true,
-        // canvas: true,
+        // attribution: true,        // canvas: true,
         annotations: true, // still getting an error on the annotations button
         // search: true,
         // layers: false,
       },
     catalog: [// These manifests are available in the catalog. 
-        {
-            manifestId: 'https://cdm16866.contentdm.oclc.org/iiif/info/cchm_photo/5342/manifest.json',
-            provider: 'Washington State University',
-        },
-        { // Secret cat on the 76th page
-            manifestId: 'https://iiif.bodleian.ox.ac.uk/iiif/manifest/faeff7fb-f8a7-44b5-95ed-cff9a9ffd198.json',
-            provider: 'Bodleian Libraries, University of Oxford',
-        },
         {
             manifestId: 'https://www.e-codices.unifr.ch/metadata/iiif/collection.json',
             provider: 'e-codices',
