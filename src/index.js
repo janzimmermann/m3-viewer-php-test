@@ -6,7 +6,7 @@ import miradorAnnotationPlugins from 'mirador-annotations/es/index';
 import LocalStorageAdapter from 'mirador-annotations/es/LocalStorageAdapter';
 import CustomBrand from './components/custom_brand';
 // import AnnototAdapter from 'mirador-annotations/es/AnnototAdapter';
-import examplePlugin from './plugins/example_plugin';
+// import examplePlugin from './plugins/example_plugin';
 
 const endpointUrl = 'http://127.0.0.1:3000/annotations';
 
@@ -90,7 +90,6 @@ const plugins = [
     component: CustomBrand,
     target: 'Branding',
   },
-  ...examplePlugin,
   ...miradorImageToolsPlugin,
   ...miradorAnnotationPlugins,
 ];
