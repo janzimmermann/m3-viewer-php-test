@@ -6,7 +6,7 @@
   <body>
     <?php 
       // echo "<div>moin</div>";
-      $data = htmlspecialchars($_POST["collection"]);
+      $data = $_POST["collection"];
       // $data = file_get_contents('collections/sample_detektiiif_output.json');
       // echo "<div>" . $div . "</div>";
       // echo "<div>" . htmlspecialchars($_POST["collection"]) . "</div>"
