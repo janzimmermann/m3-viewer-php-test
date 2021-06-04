@@ -1,0 +1,18 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://detektiiif.manducus.net/invalid",
+    "@type": "sc:Collection",
+    "label": "custom detektIIIF collection",
+    "manifests": [
+        {
+            "@id": "https://www.e-manuscripta.ch/zuzneb/i3f/v20/1957504/manifest",
+            "@type": "sc:Manifest",
+            "label": "[1 Möwe auf der Mauer]"
+        },
+        {
+            "@id": "https://www.e-manuscripta.ch/zuzneb/i3f/v20/1498398/manifest",
+            "@type": "sc:Manifest",
+            "label": "Den Gründern der Aarauer Reisszeugfa..."
+        }
+    ]
+}
