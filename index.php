@@ -10,7 +10,7 @@
       // $data = file_get_contents('collections/sample_detektiiif_output.json');
       // echo "<div>" . $div . "</div>";
       // echo "<div>" . htmlspecialchars($_POST["collection"]) . "</div>"
-      $file = 'myFabulousCollection.json';
+      $file = 'collections/myFabulousCollection.json';
       file_put_contents($file , $data);
     ?>
     <div id="mirador-viewer"></div>
