@@ -44,6 +44,7 @@
           windows: [";
       foreach($manifests as $value) {
         echo "{ manifestId: '$value' },";
+      }
       unset($value);
       echo "]});</script>";          
     ?>
