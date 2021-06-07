@@ -40,7 +40,7 @@
       unset($value);
       echo "<script type=\"text/javascript\">
       // var miradorInstance = Mirador.viewer({
-      import * as myModule from "src/index.js";
+      import * as myModule from \"src/index.js\";
       var action = myModule.Mirador.actions.addWindow({ manifestId: '$manifests[0]' });
       myModule.miradorInstance.store.dispatch(action);
       </script>"; 
