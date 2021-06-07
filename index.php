@@ -11,10 +11,23 @@
       $directoryToStoreCollections = './collections/stored_collections/';
       // Returns array of files in collections array
       $alreadySavedCollections = scandir($directoryToStoreCollections);
-      // Count number of files, remove . and ..
-      $fileCount = count(alreadySavedCollections) - 2;
+      // Count number of files
+      //$fileCount = count(alreadySavedCollections);
       // file directory
-      $file = $directoryToStoreCollections . 'myFabulousCollection'. $fileCount .'.json';
+      //$file = $directoryToStoreCollections . 'myFabulousCollection_'. $fileCount .'.json';
+
+      // Initialize filecount variavle
+      $fileCount = 0;
+        
+      $alreadySavedCollections = glob( $directoryToStoreCollections ."*" );
+        
+      if( $alreadySavedCollections ) {
+          $fileCount = count($alreadySavedCollections);
+      }
+  
+      echo "<div>" $fileCount . "files </div>";
+      $file = $directoryToStoreCollections . 'myFabulousCollection_'. $fileCount .'.json';
+
       file_put_contents($file , $data);
     ?>
     <div id="mirador-viewer"></div>
