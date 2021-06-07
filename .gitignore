@@ -3,3 +3,5 @@ dist/
 package-lock.json
 .cache/
 .vscode/
+# Dependency directories
+node_modules/
