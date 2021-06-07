@@ -38,9 +38,9 @@
         $manifests[] = $value["@id"];
       }
       unset($value);
-      echo "<script type=\"text/javascript\">
+      echo "<script type=\"module\">
       // var miradorInstance = Mirador.viewer({
-      import * as myModule from \"src/index.js\";
+      import * as myModule from \"dist/main.js\";
       var action = myModule.Mirador.actions.addWindow({ manifestId: '$manifests[0]' });
       myModule.miradorInstance.store.dispatch(action);
       </script>"; 
