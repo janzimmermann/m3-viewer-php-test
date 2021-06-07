@@ -25,7 +25,7 @@
           $fileCount = count($alreadySavedCollections);
       }
   
-      echo "<div>" $fileCount . "files </div>";
+      echo "<div>" . $fileCount . " files</div>";
       $file = $directoryToStoreCollections . 'myFabulousCollection_'. $fileCount .'.json';
 
       file_put_contents($file , $data);
