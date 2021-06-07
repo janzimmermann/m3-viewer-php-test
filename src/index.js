@@ -94,4 +94,12 @@ const plugins = [
   ...miradorAnnotationPlugins,
 ];
 
-Mirador.viewer(config, plugins);
+const miradorInstance = Mirador.viewer(config, plugins);
+
+// import init from './init';
+
+// const exports = {
+//   viewer: init,
+// };
+
+// export default exports;

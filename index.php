@@ -39,14 +39,17 @@
       }
       unset($value);
       echo "<script type=\"text/javascript\">
-        var miradorInstance = Mirador.viewer({
-          id: 'mirador-viewer',
-          windows: [";
-      foreach($manifests as $value) {
-        echo "{ manifestId: '$value' },";
-      }
-      unset($value);
-      echo "]});</script>";          
+      // var miradorInstance = Mirador.viewer({
+      var action = Mirador.actions.addWindow({ manifestId: '$manifests[0]' });
+      miradorInstance.store.dispatch(action);
+      </script>"; 
+      // id: 'mirador-viewer',
+      // windows: [";
+      // foreach($manifests as $value) {
+      //   echo "{ manifestId: '$value' },";
+      // }
+      // unset($value);
+      // echo "]});</script>";          
     ?>
   </body>
 </html>
