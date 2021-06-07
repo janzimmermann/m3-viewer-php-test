@@ -4,6 +4,8 @@
     <title>Basic Mirador</title>
   </head>
   <body>
+    <div id="mirador-viewer"></div>
+    <script src="/dist/main.js"></script>
     <?php 
       // get post data
       $data = $_POST["collection"];
@@ -16,8 +18,21 @@
       // file directory
       $file = $directoryToStoreCollections . 'myFabulousCollection'. $fileCount .'.json';
       file_put_contents($file , $data);
+      // Display collection in viewer windows
+      $collection = json_decode($data, true);
+      $manifests = array();
+      foreach($collection["manifests"] as $value) {
+        $manifests[] = $value["@id"];
+      }
+      unset($value);
+      echo "<script type=\"text/javascript\">
+        var miradorInstance = Mirador.viewer({
+          id: 'mirador-viewer',
+          windows: [";
+      foreach($manifests as $value) {
+        echo "{ manifestId: '$value' },";
+      unset($value);
+      echo "]});</script>";          
     ?>
-    <div id="mirador-viewer"></div>
-    <script src="/dist/main.js"></script>
   </body>
 </html>
