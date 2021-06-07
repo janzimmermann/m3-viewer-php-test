@@ -5,12 +5,16 @@
   </head>
   <body>
     <?php 
-      // echo "<div>moin</div>";
+      // get post data
       $data = $_POST["collection"];
-      // $data = file_get_contents('collections/sample_detektiiif_output.json');
-      // echo "<div>" . $div . "</div>";
-      // echo "<div>" . htmlspecialchars($_POST["collection"]) . "</div>"
-      $file = './collections/myFabulousCollection.json';
+      // collections directory
+      $directoryToStoreCollections = './collections/stored_collections/';
+      // Returns array of files in collections array
+      $alreadySavedCollections = scandir($directoryToStoreCollections);
+      // Count number of files, remove . and ..
+      $fileCount = count(alreadySavedCollections) - 2;
+      // file directory
+      $file = $directoryToStoreCollections . 'myFabulousCollection'. $fileCount .'.json';
       file_put_contents($file , $data);
     ?>
     <div id="mirador-viewer"></div>
