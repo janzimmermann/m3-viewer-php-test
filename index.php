@@ -13,14 +13,9 @@
       $directoryToStoreCollections = './collections/stored_collections/';
       // Returns array of files in collections array
       $alreadySavedCollections = scandir($directoryToStoreCollections);
-      // Count number of files
-      //$fileCount = count(alreadySavedCollections);
-      // file directory
-      //$file = $directoryToStoreCollections . 'myFabulousCollection_'. $fileCount .'.json';
-
       // Initialize filecount variavle
       $fileCount = 0;
-        
+      // Array with saved collections in folder
       $alreadySavedCollections = glob( $directoryToStoreCollections ."*" );
         
       if( $alreadySavedCollections ) {
@@ -28,8 +23,8 @@
       }
   
       echo "<div>" . $fileCount . " files</div>";
+      // save collection file
       $file = $directoryToStoreCollections . 'myFabulousCollection_'. $fileCount .'.json';
-
       file_put_contents($file , $data);
       
       // // Display collection in viewer windows
