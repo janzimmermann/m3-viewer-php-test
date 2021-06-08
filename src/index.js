@@ -30,24 +30,24 @@ const config = {
         ],
     },
     windows: [
-        // {
+        {
     
-        //     // viewingHint: 'single', 
-        //     manifestId: 'https://www.e-manuscripta.ch/i3f/v20/664401/manifest',
-        //     // canvasIndex: 493, // not working
-        //     canvasId: 'https://www.e-manuscripta.ch/zuz/i3f/v20/664401/canvas/664896',
-        //     thumbnailNavigationPosition: 'far-right', // 'bottom' currently not working: thumbnails are stacked on top of each other
-        //     // sideBarOpen: true,
-        // },
-        // {
-        //     manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
-        //     // canvasIndex: 7, // not working
-        //     canvasId: 'https://www.e-manuscripta.ch/zuzcmi/i3f/v20/2886898/canvas/2886949',
-        //     thumbnailNavigationPosition: 'far-right',
-        //     // sideBarOpen: true,
-        //     // imageToolsEnabled: true,
-        //     // imageToolsOpen: true,
-        // },
+            // viewingHint: 'single', 
+            manifestId: 'https://www.e-manuscripta.ch/i3f/v20/664401/manifest',
+            // canvasIndex: 493, // not working
+            canvasId: 'https://www.e-manuscripta.ch/zuz/i3f/v20/664401/canvas/664896',
+            thumbnailNavigationPosition: 'far-right', // 'bottom' currently not working: thumbnails are stacked on top of each other
+            // sideBarOpen: true,
+        },
+        {
+            manifestId: 'https://www.e-manuscripta.ch/i3f/v20/2886898/manifest',
+            // canvasIndex: 7, // not working
+            canvasId: 'https://www.e-manuscripta.ch/zuzcmi/i3f/v20/2886898/canvas/2886949',
+            thumbnailNavigationPosition: 'far-right',
+            // sideBarOpen: true,
+            // imageToolsEnabled: true,
+            // imageToolsOpen: true,
+        },
     ],
     panels: { // Configure which panels are visible in WindowSideBarButtons
         info: true,
@@ -94,12 +94,4 @@ const plugins = [
   ...miradorAnnotationPlugins,
 ];
 
-const miradorInstance = Mirador.viewer(config, plugins);
-
-// import init from './init';
-
-// const exports = {
-//   viewer: init,
-// };
-
-// export default exports;
+Mirador.viewer(config, plugins);

@@ -31,19 +31,20 @@
       $file = $directoryToStoreCollections . 'myFabulousCollection_'. $fileCount .'.json';
 
       file_put_contents($file , $data);
-      // Display collection in viewer windows
-      $collection = json_decode($data, true);
-      $manifests = array();
-      foreach($collection["manifests"] as $value) {
-        $manifests[] = $value["@id"];
-      }
-      unset($value);
-      echo "<script type=\"module\">
-      // var miradorInstance = Mirador.viewer({
-      // import * as myModule from \"/dist/main.js\";
-      var action = Mirador.actions.addWindow({ manifestId: '$manifests[0]' });
-      miradorInstance.store.dispatch(action);
-      </script>"; 
+      
+      // // Display collection in viewer windows
+      // $collection = json_decode($data, true);
+      // $manifests = array();
+      // foreach($collection["manifests"] as $value) {
+      //   $manifests[] = $value["@id"];
+      // }
+      // unset($value);
+      // echo "<script type=\"module\">
+      // // var miradorInstance = Mirador.viewer({
+      // // import * as myModule from \"/dist/main.js\";
+      // var action = myModule.Mirador.actions.addWindow({ manifestId: '$manifests[0]' });
+      // miradorInstance.store.dispatch(action);
+      // </script>"; 
       // id: 'mirador-viewer',
       // windows: [";
       // foreach($manifests as $value) {
