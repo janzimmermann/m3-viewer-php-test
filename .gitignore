@@ -3,6 +3,5 @@ dist/
 package-lock.json
 .cache/
 .vscode/
-.vs/
 # Dependency directories
 node_modules/
