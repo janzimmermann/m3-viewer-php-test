@@ -71,16 +71,19 @@
         $manifests[] = $manifest["@id"];
       }
       unset($manifest);
+    ?>
 
-      echo "<script type='text/javascript'>
-              var miradorInstance = Mirador.viewer({
-                id: 'mirador'," .
-                foreach($manifests as $manifestId) {
-                  echo "windows: [{ manifestId: ".$manifestId."' }],";
-                  echo "catalog: [{ manifestId: ".$manifestId."' }]";
-                }
-              ."});
-          </script>";
+    <script type='text/javascript'>
+      var miradorInstance = Mirador.viewer({
+        id: 'mirador',
+        <?php
+        foreach($manifests as $manifestId) {
+          echo "windows: [{ manifestId: ".$manifestId."' }],";
+          echo "catalog: [{ manifestId: ".$manifestId."' }]";
+        }
+        ?>
+      })
+    </script>;
     ?>
   </body>
 </html>
