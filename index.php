@@ -1,14 +1,12 @@
 <!doctype html>
 <html>
   <head>
-    <title>Basic Mirador DEV</title>
+    <title>Basic Mirador Feature Branch</title>
   </head>
   <body>
     <!-- <div id="mirador-viewer"></div>
     <script src="/dist/main.js"></script> -->
     
-    <script type="text/javascript" src="mirador.min.js"></script>
-
     <div id="mirador" style="position:absolute; top:0; bottom:0; left:0; right:0;">
       <div class="fullscreen">
         <nav class="MuiPaper-root MuiAppBar-root MuiAppBar-positionAbsolute MuiAppBar-colorDefault mirador5 mirador-workspace-control-panel MuiPaper-elevation4" aria-label="Workspace navigation">
@@ -97,7 +95,6 @@
                 echo "{ manifestId: '". $manifestId ."' }, \n";
               }
             ?>
-          ]
       });
     </script>
   </body>
