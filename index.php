@@ -6,6 +6,8 @@
   <body>
     <!-- <div id="mirador-viewer"></div>
     <script src="/dist/main.js"></script> -->
+
+    <script type="text/javascript" src="mirador.min.js"></script>
     
     <div id="mirador" style="position:absolute; top:0; bottom:0; left:0; right:0;">
       <div class="fullscreen">
@@ -62,7 +64,6 @@
           $fileCount = count($alreadySavedCollections);
       }
   
-      echo "<div>" . $fileCount . " files</div>";
       $file = $directoryToStoreCollections . 'myFabulousCollection_'. $fileCount .'.json';
 
       file_put_contents($file , $data);
