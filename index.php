@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Basic Mirador Feature Branch</title>
+    <title>Basic Mirador DEV</title>
   </head>
   <body>
     <!-- <div id="mirador-viewer"></div>
