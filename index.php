@@ -92,7 +92,7 @@
           catalog: [
             <?php
               foreach($manifests as $manifestId) {
-                echo "{ manifestId: ". $manifestId ."' }, \n";
+                echo "{ manifestId: '". $manifestId ."' }, \n";
               }
             ?>
       });
