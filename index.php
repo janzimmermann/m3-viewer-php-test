@@ -95,6 +95,7 @@
                 echo "{ manifestId: '". $manifestId ."' }, \n";
               }
             ?>
+          ]
       });
     </script>
   </body>
