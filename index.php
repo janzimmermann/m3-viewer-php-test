@@ -5,7 +5,7 @@
   </head>
   <body>
     <div id="mirador-viewer"></div>
-    <script type="module" src="/dist/mainjs"></script>
+    <script type="module" src="/dist/main.js"></script>
     
     <?php 
       // get post data
