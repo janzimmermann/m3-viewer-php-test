@@ -5,14 +5,7 @@
   </head>
   <body>
     <div id="mirador-viewer"></div>
-<<<<<<< HEAD
     <script src="src/index.js"></script>
-=======
-    <!-- <script src="/dist/main.js"></script> -->
-    <script type='text/javascript'>
-      import Mirador from 'mirador/dist/es/src/index';
-    </script>
->>>>>>> b1f097ee941d406485f17132f2d92112a88dc93c
     
     <?php 
       // get post data
