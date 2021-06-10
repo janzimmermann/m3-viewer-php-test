@@ -82,12 +82,19 @@
     <script type='text/javascript'>
       var miradorInstance = Mirador.viewer({
         id: 'mirador',
-        <?php
-        foreach($manifests as $manifestId) {
-          echo "windows: [{ manifestId: ". $manifestId ."' }],";
-          echo "catalog: [{ manifestId: ". $manifestId ."' }]";
-        }
-        ?>
+          windows: [
+            <?php
+            foreach($manifests as $manifestId) {
+              echo "{manifestId: '". $manifestId ."'}, \n";
+            }
+            ?>
+          ],
+          catalog: [
+            <?php
+              foreach($manifests as $manifestId) {
+                echo "{ manifestId: ". $manifestId ."' }, \n";
+              }
+            ?>
       });
     </script>
   </body>
