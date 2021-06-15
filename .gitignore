@@ -5,3 +5,4 @@ package-lock.json
 .vscode/
 # Dependency directories
 node_modules/
+collections/
