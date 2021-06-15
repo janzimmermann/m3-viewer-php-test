@@ -8,7 +8,10 @@ module.exports = function(env, argv) {
     devServer: {
       open: true,
       contentBase: path.resolve(__dirname),
-      publicPath: '/dist/',
+      // LOCALHOST
+      publicPath: '/git/zbviewer/dist/',
+      // LIVE
+      // publicPath: '/dist/',
     },
     devtool: env && env.production ? 'source-map' : 'eval-source-map',
     entry: './src/index.js',
@@ -29,7 +32,10 @@ module.exports = function(env, argv) {
     output: {
       filename: 'main.js',
       path: path.resolve(__dirname, 'dist'),
-      publicPath: '/dist/',
+      // LOCALHOST
+      publicPath: '/git/zbviewer/dist/',
+      // LIVE
+      // publicPath: '/dist/',
     },
     plugins: [
       new CleanWebpackPlugin(),
