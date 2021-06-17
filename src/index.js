@@ -17,7 +17,7 @@ const config = {
         adapter: (canvasId) => new LocalStorageAdapter(`localStorage://?canvasId=${canvasId}`),
         // adapter: (canvasId) => new AnnototAdapter(canvasId, endpointUrl),
     },
-    id: 'mirador-viewer',
+    id: 'mirador',
     window: {
         // Set the default view type for all manifests without a viewingHint
         defaultView: 'single', // options: single, book, gallery, scroll

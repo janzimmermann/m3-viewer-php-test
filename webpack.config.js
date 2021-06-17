@@ -9,7 +9,7 @@ module.exports = function(env, argv) {
       open: true,
       contentBase: path.resolve(__dirname),
       // LOCALHOST
-      publicPath: '/git/zbviewer/dist/',
+      publicPath: './dist/',
       // LIVE
       // publicPath: '/dist/',
     },
@@ -33,10 +33,20 @@ module.exports = function(env, argv) {
       filename: 'main.js',
       path: path.resolve(__dirname, 'dist'),
       // LOCALHOST
-      publicPath: '/git/zbviewer/dist/',
+      // publicPath: '/git/zbviewer/dist/',
+      publicPath: './dist/',
       // LIVE
       // publicPath: '/dist/',
     },
+
+    // entry: './src/index.js',
+    // output: {
+    //   filename: 'main.js',
+    //   path: path.resolve(__dirname, 'dist'),
+    //   publicPath: './dist/',
+    // },
+
+
     plugins: [
       new CleanWebpackPlugin(),
       new webpack.IgnorePlugin({
