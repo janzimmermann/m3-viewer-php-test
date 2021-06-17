@@ -2,7 +2,7 @@
 
 The viewer has a customized design
 
-This is a repository to find possibilities getting windows/catalog data from a POST request. 
+This is a repository to find possibilities handle windows/catalog data from a POST request. 
 
 The viewer should habe the possibility to setup further plugins. 
 
